@@ -9,3 +9,10 @@ func IsPrime(num int) bool {
 	}
 	return true
 }
+func IsOddAndPrime(num int) bool {
+	if num%2 != 0 && IsPrime(num) {
+		return true
+	} else {
+		return false
+	}
+}
